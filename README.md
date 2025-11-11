@@ -11,7 +11,7 @@ Loading tasks...
 
 <br>
 
-Projects to choose from:
+## Projects to choose from:
 1. Forum eller sosiale medier-side:
 Lag en side hvor brukere kan registrere seg og logge inn, og så lese og skrive meldinger. Bruk Mariadb, Flask, og HTML/CSS.
 
@@ -38,7 +38,7 @@ In choosing...
 
 111125-9.01
 
-Interested projects:
+## Interested projects:
 1. Forum eller sosiale medier-side
 2. Hjemmeside med spill
 
@@ -56,18 +56,42 @@ WIP Prototype..
 Added prototype files.
 WIP codes.
 
-1. Forum eller sosiale medier-side:
+### 1. Forum eller sosiale medier-side:
 - To choose a forum or a social media webpage on your own.
 - Registration + Login for users.
 - Reading & writing messages.
 - Using HTML/CSS.
 - Trying with Mariadb/Flask.
 
-2. Hjemmeside med spill:
+<br>
+<br>
+
+### 2. Hjemmeside med spill:
 - To choose which game to create.
 - Using HTML/CSS/JavaScript for the hjemmeside & game.
 Do we choose to take our own Hjemmeside from VG1 or create a new Prototype Hjemmeside with the added game?
-
 - Trying database via Flask.
+
+<br>
+<br>
+
+## Questions:
+- Do I need or is it recommanded to use Raspberri Pi for Mariadb & Flask?
+- When creating your own repository, is it recommanded to put them on puplic or private?
+
+<br>
+<br>
+
+## What I am definetly using:
+- HTML/CSS
+- JavaScript
+- Figuring out Database
+
+<br>
+<br>
+
+## File Struktur:
+-
+
 
 
