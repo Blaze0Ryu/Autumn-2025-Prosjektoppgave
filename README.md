@@ -1,9 +1,13 @@
 # Autumn-2025-Prosjektoppgave
 Upcoming project still in choosing.
 
+<br>
+<br>
 
 Loading...
 
+<br>
+<br>
 
 Projects to choose from:
 1. Forum eller sosiale medier-side:
@@ -24,14 +28,20 @@ Lag en Capture the Flag/escape room-utfordring hvor brukere skal løse oppgaver 
 6. Redesign en tjeneste:
 som for eksempler Yr, Ruter eller IMDB ved å hente data fra et API og vise det på en nettside.
 
+<br>
+<br>
 
 In choosing...
 
+<br>
+<br>
 
 111125-9.01
 Interested projects:
 1. Forum eller sosiale medier-side
 2. Hjemmeside med spill
 
+<br>
+<br>
 
 
