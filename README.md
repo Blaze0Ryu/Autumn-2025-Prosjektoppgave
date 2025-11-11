@@ -77,7 +77,7 @@ Do we choose to take our own Hjemmeside from VG1 or create a new Prototype Hjemm
 
 ## Questions:
 - Do I need or is it recommanded to use Raspberri Pi for Mariadb & Flask?
-- When creating your own repository, is it recommanded to put them on puplic or private?
+- When creating your own repository, is it recommended to put them on puplic or private?
 
 <br>
 <br>
@@ -85,13 +85,13 @@ Do we choose to take our own Hjemmeside from VG1 or create a new Prototype Hjemm
 ## What I am definetly using:
 - HTML/CSS
 - JavaScript
-- Figuring out Database
+- Figuring out Database in the long run
 
 <br>
 <br>
 
 ## File Struktur:
--
+- Working on it.
 
 
 
