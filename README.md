@@ -7,8 +7,12 @@ Upcoming project still in choosing.
 Loading...
 
 <br>
+
+Loading tasks...
+
 <br>
 
+<br>
 Projects to choose from:
 1. Forum eller sosiale medier-side:
 Lag en side hvor brukere kan registrere seg og logge inn, og så lese og skrive meldinger. Bruk Mariadb, Flask, og HTML/CSS.
@@ -40,6 +44,11 @@ In choosing...
 Interested projects:
 1. Forum eller sosiale medier-side
 2. Hjemmeside med spill
+
+<br>
+<br>
+
+Loading...
 
 <br>
 <br>
