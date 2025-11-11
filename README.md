@@ -34,11 +34,10 @@ som for eksempler Yr, Ruter eller IMDB ved å hente data fra et API og vise det 
 
 In choosing...
 
-Resources loading..
-
 <br>
 
 111125-9.01
+
 Interested projects:
 1. Forum eller sosiale medier-side
 2. Hjemmeside med spill
@@ -48,5 +47,12 @@ Interested projects:
 Loading...
 
 <br>
+
+Resources loading..
+
+<br>
+WIP Prototype.. 
+
+
 
 
