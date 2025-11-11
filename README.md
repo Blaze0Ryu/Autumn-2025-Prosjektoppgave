@@ -2,7 +2,6 @@
 Upcoming project still in choosing.
 
 <br>
-<br>
 
 Loading...
 
@@ -12,7 +11,6 @@ Loading tasks...
 
 <br>
 
-<br>
 Projects to choose from:
 1. Forum eller sosiale medier-side:
 Lag en side hvor brukere kan registrere seg og logge inn, og så lese og skrive meldinger. Bruk Mariadb, Flask, og HTML/CSS.
@@ -33,11 +31,11 @@ Lag en Capture the Flag/escape room-utfordring hvor brukere skal løse oppgaver 
 som for eksempler Yr, Ruter eller IMDB ved å hente data fra et API og vise det på en nettside.
 
 <br>
-<br>
 
 In choosing...
 
-<br>
+Resources loading..
+
 <br>
 
 111125-9.01
@@ -46,11 +44,9 @@ Interested projects:
 2. Hjemmeside med spill
 
 <br>
-<br>
 
 Loading...
 
-<br>
 <br>
 
 
