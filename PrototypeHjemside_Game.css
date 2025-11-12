@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+
+
+p {
+    color: white;
+}
+
+/*Headline 1*/
+h1 {
+    color: white;
+    font-family: Comic, Impact, Helvetica;
+    font-size: 68px;
+    text-align: center;
+}
+
+/*Headline 2*/
+h2 {
+    color: white;
+}
+
