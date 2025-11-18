@@ -33,7 +33,7 @@ div {
     background-color: white;
     position: relative;
     animation-name: Cube_Animation;
-    animation-duration: 8s;
+    animation-duration: 12s;
     animation-iteration-count: 31622400; /*11,573,798,400 | 31622400*/
 }
 
@@ -52,3 +52,11 @@ div {
     110%{background-color: rgb(255, 0, 119); left:200px; right: 0px;}
     120% {background-color: rgb(255, 0, 76); left:0px; right: 200px;}
 }
+
+
+
+
+
+
+
+/**/ 
