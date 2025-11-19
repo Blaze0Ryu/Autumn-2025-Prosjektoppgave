@@ -25,7 +25,6 @@ h2 {
 
 
 
-
 /*Testing div cube*/
 div {
     width: 25px;
@@ -33,27 +32,30 @@ div {
     background-color: white;
     position: relative;
     animation-name: Cube_Animation;
-    animation-duration: 12s;
+    animation-duration: 55s;
     animation-iteration-count: 31622400; /*11,573,798,400 | 31622400*/
 }
 
 @keyframes Cube_Animation {
     0% {background-color: rgb(255, 0, 0); left:0px; right: 0px;}
-    10% {background-color: rgb(255, 157, 0); left: 200px; right: 0px;}
+    10% {background-color: rgb(255, 157, 0); left: calc(98vw - 25px); right: 0px;}
     20% {background-color: rgb(251, 255, 0); left:0px; right: 200px;}
-    30% {background-color: rgb(170, 255, 0); left:200px; right: 0px;}
+    30% {background-color: rgb(170, 255, 0); left:calc(98vw - 25px); right: 0px;}
     40% {background-color: rgb(0, 255, 21); left:0px; right: 200px;}
-    50% {background-color: rgb(0, 255, 157); left:200px; right: 0px;}
+    50% {background-color: rgb(0, 255, 157); left:calc(98vw - 25px); right: 0px;}
     60% {background-color: rgb(0, 255, 255); left:0px; right: 200px;}
-    70% {background-color: rgb(0, 162, 255); left:200px; right: 0px;}
+    70% {background-color: rgb(0, 162, 255); left:calc(98vw - 25px); right: 0px;}
     80% {background-color: rgb(0, 34, 255); left:0px; right: 200px;}
-    90% {background-color: rgb(123, 0, 255); left:200px; right: 0px;}
+    90% {background-color: rgb(123, 0, 255); left:calc(98vw - 25px); right: 0px;}
     100% {background-color: rgb(234, 0, 255); left:0px; right: 200px;}
-    110%{background-color: rgb(255, 0, 119); left:200px; right: 0px;}
-    120% {background-color: rgb(255, 0, 76); left:0px; right: 200px;}
+    85%{background-color: rgb(255, 0, 119); left:calc(98vw - 25px); right: 0px;}
+    75% {background-color: rgb(255, 0, 76); left:0px; right: 200px;}
 }
 
-
+img {
+    align-content: center;
+    height: 100%;
+}
 
 
 
