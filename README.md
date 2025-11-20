@@ -1,13 +1,13 @@
 # **Autumn-2025-Prosjektoppgave**
-*Upcoming project/s still in choosing.*
+`Upcoming project/s still in choosing.`
 
 <br>
 
-*Loading...*
+`Loading...`
 
 <br>
 
-*Loading tasks...*
+`Loading tasks...`
 
 <br>
 
@@ -32,11 +32,11 @@ som for eksempler Yr, Ruter eller IMDB ved å hente data fra et API og vise det 
 
 <br>
 
-*In choosing...*
+`In choosing...`
 
 <br>
 
-111125-9.01
+`111125-9.01`
 
 ## Interested projects:
 **1. Forum eller sosiale medier-side**
@@ -45,11 +45,11 @@ som for eksempler Yr, Ruter eller IMDB ved å hente data fra et API og vise det 
 
 <br>
 
-*Loading...*
+`Loading...`
 
 <br>
 
-*Resources loading..*
+`Resources loading..`
 
 <br>
 WIP Prototypes:
@@ -68,18 +68,20 @@ Added prototype files & WIP codes.
 ### 2. Hjemmeside med spill:
 - To choose which game to create.
 - Using HTML/CSS/JavaScript for the hjemmeside & game.
-Do we choose to take our own Hjemmeside from VG1 or create a new Prototype Hjemmeside with the added game?
 - Trying database via Flask.
 
+- Do we choose to take our own Hjemmeside from VG1 or create a new Prototype Hjemmeside with the added game?
+
+
 <br>
-------------------------------------------------------------------------
+-----------------------------------------------------------------------------
 
 ## Questions:
 - Do I need or is it recommanded to use Raspberri Pi for Mariadb & Flask?
 - When creating your own repository, is it recommended to put them on puplic or private?
 
 <br>
-------------------------------------------------------------------------
+-----------------------------------------------------------------------------
 
 ## What I am definetly using:
 - HTML/CSS
@@ -87,10 +89,42 @@ Do we choose to take our own Hjemmeside from VG1 or create a new Prototype Hjemm
 - Figuring out Database in the long run
 
 <br>
-<br>
 
 ## File Struktur:
 - Working on it.
 
-l
+<br>
+
+---
+`201125-10.39`
+
+<br>
+
+`Loading file structur:`
+
+- `Kuben Skolen VG2 2025-26`
+    - `IM`
+        - `Autumn 2025 Prosjektoppgave`
+            - `Autumn-2025-Prosjektoppgave`
+                - `Game tileset`
+                    - `Gif grass pixel`
+                    - `Gif water pixel`
+                    - `Grass pixel`
+                    - `gravestone pixel`
+                    - `map`
+                    - `Sky clouds pixel`
+                    - `Tilemap resources grassmoonfences`
+                    - `Water Pixel spritesheet`
+                    <br>
+                - `PTH_Game`
+                - `pixel game cover`
+                - `PrototypeHjemside_Game css`
+                - `PrototypeHjemside_Game html`
+                - `PrototypeHjemside_Game js`
+                - `PrototypeSocial_Media html`
+                - `prototypesocialmedia css`
+                - `prototypesocialmedia js`
+                - `README`
+
+
 
