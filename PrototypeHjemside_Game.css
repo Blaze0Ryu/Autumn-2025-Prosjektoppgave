@@ -27,15 +27,16 @@ h2 {
 
 /*Testing div cube*/
 div:not(.image-container) {
-    width: 25px;
-    height: 25px;
+    width: 32px;
+    height: 32px;
     background-color: rgb(0, 255, 157);
     position: relative;
     animation-name: Cube_Animation;
     animation-duration: 55s;
-    animation-iteration-count: 31622400; /*11,573,798,400 | 31622400*/
+    animation-iteration-count: 11573798400; /*11,573,798,400 | 31622400*/
 }
 
+/*keyframes is used to control the animation to start & end the transition.*/
 @keyframes Cube_Animation {
     0% {background-color: rgb(255, 0, 0); left:0px; right: 0px;}
     10% {background-color: rgb(255, 157, 0); left: calc(98vw - 25px); right: 0px;}
@@ -53,7 +54,7 @@ div:not(.image-container) {
 }
 
 
-
+/*Cover image stopped moving with this.*/
 .image-container {
     width: 100%;
     height: none;
@@ -70,4 +71,17 @@ div:not(.image-container) {
 
 
 
-/**/ 
+/*261125-8.51*/
+/*testing if this code works out.*/
+canvas {
+    border: 5px solid #ffffffd3;
+    background-color: rgb(34, 32, 32);
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+}
+
+
+
+
+
