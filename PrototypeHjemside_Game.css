@@ -122,11 +122,11 @@ div:not(.image-container, .content) {
 canvas {
   border: 5px solid #ffffffd3;
   background-color: rgb(34, 32, 32);
-  position: absolute;
-  left: 50%;
+  position: relative;
+  /*left: 50%;
   transform: translate(-50%);
-  /*right: auto;*/
-  bottom: 115px;
+  *right: auto;
+  bottom: 115px;*/
 }
 
 /**/
