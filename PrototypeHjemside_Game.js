@@ -4,15 +4,15 @@
 var mygGamePiece;
 
 function startGame() {
-  mygGamePiece = new component(30, 30, "Yellow", 10, 120);
+  mygGamePiece = new component(40, 40, "Yellow", 20, 140);
   myGameArea.start();
 }
 
 var myGameArea = {
   canvas: document.createElement("canvas"),
   start: function () {
-    this.canvas.width = 480;
-    this.canvas.height = 270;
+    this.canvas.width = 1300;
+    this.canvas.height = 910;
     this.canvas.style.cursor = "none"; //hiding the original cursor
     this.context = this.canvas.getContext("2d");
     document.body.insertBefore(this.canvas, document.body.childNodes[0]);
