@@ -32,8 +32,8 @@ div:not(.image-container) {
     background-color: rgb(0, 255, 157);
     position: relative;
     animation-name: Cube_Animation;
-    animation-duration: 55s;
-    animation-iteration-count: 11573798400; /*11,573,798,400 | 31622400*/
+    animation-duration: 55s; /*The speed of the cube, the higher the number - the slower the animation speed of the cube.*/
+    animation-iteration-count: 11573798400; /*11,573,798,400 | 31622400 | Countdown of numbers of how many times the cube is going to swing from left to right.*/
 }
 
 /*keyframes is used to control the animation to start & end the transition.*/
