@@ -253,3 +253,13 @@ input[type="checkbox"]:checked + label .reversible {
 }
 
 /**/
+/*table css line tabelle*/
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  font-size: small;
+}
