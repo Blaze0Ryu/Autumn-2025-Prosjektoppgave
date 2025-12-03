@@ -4,6 +4,7 @@ body {
 
 p {
   color: white;
+  font-size: 23px;
 }
 
 /*Headline 1*/
@@ -21,8 +22,15 @@ h2 {
   font-family: Comic, Helvetica, "Arial Narrow Bold", sans-serif;
 }
 
+/**/
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
 /*Testing div cube*/
-div:not(.image-container, .content) {
+div:not(.image-container, .content, .) {
   /*The p text is inside .content, when writing like this: The text won't be moving like the Cube_Animation.*/
   width: 32px;
   height: 32px;
@@ -169,3 +177,79 @@ Light blue background with black text. --> Black background with white text.*/
   font-size: 22px; /*The font-size command changes the size of the text inside the boxes.*/
   font-weight: none;
 }
+
+/**/
+/**/
+/*Card flip testing*/
+label[for="test"] {
+  display: block;
+  -webkit-perspective: 800px;
+  perspective: 800px;
+}
+
+.reversible {
+  position: relative;
+  width: 210px;
+  margin: 50px auto;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: transform 2s ease;
+  transition: all 2s;
+  perspective: 1000px;
+}
+
+input[type="checkbox"]:checked + label .reversible {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.reversible .card {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.tile-front {
+  z-index: 2;
+}
+
+.tile-back {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.card-body {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+/**/
+.card-body-back {
+  height: fit-content;
+  width: fit-content;
+}
+
+/**/
+.card footer {
+  font-size: 2rem;
+}
+
+.card {
+  background-color: white;
+  height: 22rem;
+  transition: all 0.9s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1.5rem 4rem rgb(255, 0, 0);
+}
+
+/**/

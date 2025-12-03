@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prototype Game</title>
-    <link rel="stylesheet" href="PrototypeHjemside_Game.css">
-</head>
+    <link rel="stylesheet" href="PrototypeHjemside_Game.css" />
+  </head>
 
-<body>
+  <body>
     <script src="PrototypeHjemside_Game.js" defer></script>
-    <img src="" alt="">
+    <img src="" alt="" />
 
-    <h1><b>PTH game WIP</b></h1> <!--The command <h1> stands for headline 1. The command <b> is for the chosen text to be bold.-->
+    <h1><b>PTH game WIP</b></h1>
+    <!--The command <h1> stands for headline 1. The command <b> is for the chosen text to be bold.-->
 
     <pre></pre>
 
@@ -21,7 +22,7 @@
     <pre></pre>
 
     <div class="image-container">
-      <img src="pixel game cover.png" alt="Game cover">  
+      <img src="pixel game cover.png" alt="Game cover" />
     </div>
     <!--usemap="#gamingstart"-->
 
@@ -42,7 +43,7 @@
     <!--The code now runs how I wanted.-->
     <button type="button" class="collapsible">Game rules</button>
     <div class="content">
-        <p><b>Title 2:</b></p>
+      <p><b>Title 2:</b></p>
       <p>Rule 1:</p>
       <p>Rule 2</p>
       <p>Rule 3</p>
@@ -73,6 +74,75 @@
     <!---->
     <pre></pre>
 
-  <body onload="startGame()">
-</body>
+    <body onload="startGame()">
+
+      <!--The command <hr> is used to create a line on your coded page.-->
+      <hr> 
+
+    <!--Trying the card flip-->
+    <!--The command <h4> stands for headline 4, the fontsize can be changed in css.-->
+    <h4><b>Card game:</b></h4>
+
+    
+    <!--Card flip testing-->
+    <!--Fisrt card-->
+  <table>
+    <tr>
+      <td>
+        <div class="flip-container">
+    <input type="checkbox" id="test"/>
+    <label for="test">
+      <div class="reversible">
+
+        <!--front card-->
+        <div class="card tile-front">
+          <div class="card-body">
+            <p>Flip the card.</p>
+          </div>
+        </div>
+
+        <!--Back card-->
+        <div class="card-tile-back">
+          <div class="card-body">
+            <img src="Game cards/Godzilla card_5.png" alt="Godzilla" weight="520px" height="245px">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </label>
+    </div>
+    </td>
+    </tr>
+
+    <pre></pre>
+
+    <!--Second card-->
+    <input type="checkbox" id="test"/>
+    <label for="test">
+      <div class="reversible">
+
+        <!--front card-->
+        <div class="card tile-front">
+          <div class="card-body">
+            <p>Flip the card.</p>
+          </div>
+        </div>
+
+        <!--Back card-->
+        <div class="card-tile-back">
+          <div class="card-body">
+            <img src="Game cards/Lion card_6.png" alt="Lion" weight="520px" height="245px">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </label>
+  </table>
+
+    <hr>
+
+
+
+
+  </body>
 </html>
